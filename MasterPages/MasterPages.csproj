@@ -67,17 +67,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CustomerService.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="PageTwo.aspx" />
+    <Content Include="DispensingDepartment.aspx" />
+    <Content Include="PetOwner.aspx" />
+    <Content Include="Vet.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerService.aspx.cs">
+      <DependentUpon>CustomerService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerService.aspx.designer.cs">
+      <DependentUpon>CustomerService.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DispensingDepartment.aspx.cs">
+      <DependentUpon>DispensingDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DispensingDepartment.aspx.designer.cs">
+      <DependentUpon>DispensingDepartment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
@@ -86,14 +103,21 @@
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
-    <Compile Include="PageTwo.aspx.cs">
-      <DependentUpon>PageTwo.aspx</DependentUpon>
+    <Compile Include="PetOwner.aspx.cs">
+      <DependentUpon>PetOwner.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PageTwo.aspx.designer.cs">
-      <DependentUpon>PageTwo.aspx</DependentUpon>
+    <Compile Include="PetOwner.aspx.designer.cs">
+      <DependentUpon>PetOwner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vet.aspx.cs">
+      <DependentUpon>Vet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vet.aspx.designer.cs">
+      <DependentUpon>Vet.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />

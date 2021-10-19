@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace MasterPages
 {
-    public partial class PageTwo : System.Web.UI.Page
+    public partial class Vet : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
